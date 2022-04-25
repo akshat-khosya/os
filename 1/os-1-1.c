@@ -16,4 +16,4 @@ printf("Error in opening file\n");
 
 close(fd);
 exit (0);
-
+}

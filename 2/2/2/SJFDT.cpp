@@ -72,4 +72,5 @@ int main(){
              << mat[i][2] << "\t\t" << mat[i][4] << "\t\t"
              << mat[i][5] << "\n";
     }
+    cout<<endl;
 }

@@ -66,6 +66,7 @@ int main()
         printf("\nAverage waiting time : %f", cwt /n);
         printf("\nAverage Turaround time : %f", ctat /n);
     }
+    printf("/n");
 }
 
 

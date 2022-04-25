@@ -72,6 +72,7 @@ int main(){
         cout << endl;
     }
     findavgTime(processes, n, burst_time, arrival_time);
+    cout<<endl;
     return 0;
 }
 

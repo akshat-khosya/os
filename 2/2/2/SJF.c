@@ -36,6 +36,7 @@ int main()
         printf("\n\t P%d \t\t %d \t\t %d \t\t %d", p[i], bt[i], wt[i], tat[i]);
     printf("\nAverage Waiting Time -- %f", cwt / n);
     printf("\nAverage Turnaround Time -- %f", ctat / n);
+    printf("\n");
     return 0;
 }
 

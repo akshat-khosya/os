@@ -45,6 +45,6 @@ printf("\nMemory is Full, Remaining Processes cannot be accomodated");
 
 printf("\n\nTotal Internal Fragmentation is %d",tif); 
 printf("\nTotal External Fragmentation is %d",ef); 
-
+printf("\n");
 return 0; 
 }

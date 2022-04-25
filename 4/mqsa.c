@@ -86,4 +86,5 @@ for(i=0;i<n;i++)
 	
 printf("\nAverage Waiting Time is --- %f",cwt/n); 
 printf("\nAverage Turnaround Time is --- %f",ctat/n); 
+printf("\n");
 }
