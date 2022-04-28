@@ -2,7 +2,7 @@
 
 int main() 
 { 
-int ms, bs, nob, ef, n, mp[10], tif=0, oop; 
+int ms, bs, nob, ef, n, tif=0, oop; 
 int i,p=0; 
 
 printf("Enter the total memory available (in Bytes) -- "); 
@@ -15,7 +15,7 @@ nob=ms/bs;
 oop=ms - nob*bs; 
 printf("\nEnter the number of processes -- "); 
 scanf("%d",&n); 
-
+int  mp[n];
 for(i=0;i<n;i++) 
 { 
 printf("Enter memory required for process %d (in Bytes)-- ",i+1); 
